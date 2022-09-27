@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38C5839AE45389EDEEBFD5B9 /* Pods_QR_Scanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41032D470E9A0992F59B7A4A /* Pods_QR_Scanner.framework */; };
 		761DE98828C1D3A300695252 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761DE98728C1D3A300695252 /* AppDelegate.swift */; };
 		761DE98A28C1D3A300695252 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761DE98928C1D3A300695252 /* SceneDelegate.swift */; };
 		761DE98C28C1D3A300695252 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761DE98B28C1D3A300695252 /* ViewController.swift */; };
@@ -19,9 +20,12 @@
 		761DE9A828C1D4DA00695252 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 761DE9A728C1D4DA00695252 /* Main.storyboard */; };
 		761DE9AA28C1D4E000695252 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761DE9A928C1D4E000695252 /* DetailViewController.swift */; };
 		761DE9AC28C1D4E600695252 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761DE9AB28C1D4E600695252 /* UIViewController+Alert.swift */; };
+		7660C0B328E2BD840067852C /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7660C0B228E2BD840067852C /* UIImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41032D470E9A0992F59B7A4A /* Pods_QR_Scanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QR_Scanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B52E90CECCFDC9352638650 /* Pods-QR Scanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QR Scanner.debug.xcconfig"; path = "Target Support Files/Pods-QR Scanner/Pods-QR Scanner.debug.xcconfig"; sourceTree = "<group>"; };
 		761DE98428C1D3A300695252 /* QR Scanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QR Scanner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		761DE98728C1D3A300695252 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		761DE98928C1D3A300695252 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +40,8 @@
 		761DE9A728C1D4DA00695252 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		761DE9A928C1D4E000695252 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		761DE9AB28C1D4E600695252 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		7660C0B228E2BD840067852C /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		A926F0DC277AF266D3F94E12 /* Pods-QR Scanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QR Scanner.release.xcconfig"; path = "Target Support Files/Pods-QR Scanner/Pods-QR Scanner.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38C5839AE45389EDEEBFD5B9 /* Pods_QR_Scanner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		339CC1D09C5F2216A8F05BBF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B52E90CECCFDC9352638650 /* Pods-QR Scanner.debug.xcconfig */,
+				A926F0DC277AF266D3F94E12 /* Pods-QR Scanner.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		616A748FB8C181A25F1F703F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41032D470E9A0992F59B7A4A /* Pods_QR_Scanner.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		761DE97B28C1D3A300695252 = {
 			isa = PBXGroup;
 			children = (
 				761DE98628C1D3A300695252 /* QR Scanner */,
 				761DE98528C1D3A300695252 /* Products */,
+				339CC1D09C5F2216A8F05BBF /* Pods */,
+				616A748FB8C181A25F1F703F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				761DE9AB28C1D4E600695252 /* UIViewController+Alert.swift */,
+				7660C0B228E2BD840067852C /* UIImage.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -124,9 +151,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 761DE99828C1D3A500695252 /* Build configuration list for PBXNativeTarget "QR Scanner" */;
 			buildPhases = (
+				CA13B52D7AA44EB8ECBE759C /* [CP] Check Pods Manifest.lock */,
 				761DE98028C1D3A300695252 /* Sources */,
 				761DE98128C1D3A300695252 /* Frameworks */,
 				761DE98228C1D3A300695252 /* Resources */,
+				6240B8BF28249F9A5B8A4B31 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -183,12 +212,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6240B8BF28249F9A5B8A4B31 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QR Scanner/Pods-QR Scanner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QR Scanner/Pods-QR Scanner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QR Scanner/Pods-QR Scanner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA13B52D7AA44EB8ECBE759C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QR Scanner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		761DE98028C1D3A300695252 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				761DE9AC28C1D4E600695252 /* UIViewController+Alert.swift in Sources */,
+				7660C0B328E2BD840067852C /* UIImage.swift in Sources */,
 				761DE9A028C1D48A00695252 /* QRScannerViewController.swift in Sources */,
 				761DE9A528C1D4CE00695252 /* CopyLabel.swift in Sources */,
 				761DE98C28C1D3A300695252 /* ViewController.swift in Sources */,
@@ -330,6 +402,7 @@
 		};
 		761DE99928C1D3A500695252 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B52E90CECCFDC9352638650 /* Pods-QR Scanner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -358,6 +431,7 @@
 		};
 		761DE99A28C1D3A500695252 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A926F0DC277AF266D3F94E12 /* Pods-QR Scanner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

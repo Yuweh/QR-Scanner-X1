@@ -1,0 +1,28 @@
+PODS:
+  - CameraBackground (1.6.5):
+    - CameraBackground/Resources (= 1.6.5)
+    - MultiToggleButton
+    - SweeterSwift
+  - CameraBackground/Resources (1.6.5):
+    - MultiToggleButton
+    - SweeterSwift
+  - MultiToggleButton (1.8.2)
+  - SweeterSwift (1.2.1)
+
+DEPENDENCIES:
+  - CameraBackground
+
+SPEC REPOS:
+  trunk:
+    - CameraBackground
+    - MultiToggleButton
+    - SweeterSwift
+
+SPEC CHECKSUMS:
+  CameraBackground: 5027e88e7183ebfbf754622ad15f307893255f8b
+  MultiToggleButton: d02f5deaaa431b83f1f465e95a09e41fb3b40b51
+  SweeterSwift: 61baeda1c0c27d1dc57c8112c3d6a82e5aff3139
+
+PODFILE CHECKSUM: 36cf30596c132aeb677534a17277bf1b2fb9cfdf
+
+COCOAPODS: 1.11.3

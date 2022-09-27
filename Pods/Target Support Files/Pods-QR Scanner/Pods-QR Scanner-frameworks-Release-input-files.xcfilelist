@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-QR Scanner/Pods-QR Scanner-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CameraBackground/CameraBackground.framework
+${BUILT_PRODUCTS_DIR}/MultiToggleButton/MultiToggleButton.framework
+${BUILT_PRODUCTS_DIR}/SweeterSwift/SweeterSwift.framework

@@ -1,0 +1,1198 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		036E64398511EAB140B2D4CBD2CC8C2E /* CameraBackground-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6460E869E9081588FA5131F2ECF2952A /* CameraBackground-dummy.m */; };
+		05DFF8F95F1B9A194B8B00AF50A6FCD3 /* SweeterSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69041D1588A5C1FF6AE1F9481B9303FE /* SweeterSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		082755EC6228AF4DB12D56843D58BDB2 /* DateFormatter+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86203D80587514E259031363757DF74E /* DateFormatter+Sweeter.swift */; };
+		0D5207B75FAB72BE8D019EB4FA6FC857 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		11D4539FEEFAE9AB471475196BE7FADD /* NSAttributedString+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1A8BE20DAE7A7089D4E2B9B8B801F5 /* NSAttributedString+Sweeter.swift */; };
+		23057B77A1998D4191BBF748E1CBE32F /* UIStackView+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF64E38A3CF932BCB92744F75598DA07 /* UIStackView+Sweeter.swift */; };
+		2F229E18A534CB24095A885DA4EB44AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		30DDC205B5832CA0535A0B6C9CC93469 /* SweeterSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C659E1E21350BDC9B42B59A3885FA245 /* SweeterSwift-dummy.m */; };
+		320B1AA6EF7AEC3A6F03A23830A923A8 /* camera-flash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B6A52A6E9F03B066835E5A5D27CACDF /* camera-flash@2x.png */; };
+		3C322BC5BEE294013489188EB7D91258 /* camera-timer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 379E0977A59A1A549A550B2E1951165F /* camera-timer@2x.png */; };
+		3ECA3EE73F1A66206D186A8FC2EAFB5C /* Bundle+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A360A34DF792DCFF9DC4E6F4DA7E3F7 /* Bundle+Sweeter.swift */; };
+		4A5EA5C235ABF46169698A0C8E7F62DB /* UIKit+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89663CC407CC4B2E7970849CA92D351 /* UIKit+Extensions.swift */; };
+		4C6913ECDCFE93D1470B9E23DABFB803 /* MultiToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E438183882E5B18E3EFEA9CE3DE8D63A /* MultiToggleButton.swift */; };
+		5C786E4DB252BF4AF3D04E22A78BCF04 /* Pods-QR Scanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A0CC3377B6AC8268FDEE601D3117FE2 /* Pods-QR Scanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D70DBEE280962F2710F0B2B82B4F436 /* CoundownLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963CDFF7ABCB96DB639E00CF04F89F00 /* CoundownLabel.swift */; };
+		66F28021D6AED14886B731FFC471C764 /* UIView+CameraBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AC7E21EBCC11C32E729005999F7853 /* UIView+CameraBackground.swift */; };
+		679D84111D5C91D8642540A0F463CEED /* Swift+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA58B5A9C7C006581D3549ADE88BC66D /* Swift+Sweeter.swift */; };
+		72B72F6E3907898F60350B07063A9B46 /* camera-switch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 898C926F60C48FAB779373F1FD4A7432 /* camera-switch@2x.png */; };
+		77FE42206D6A85D2BB2F8C53A9FCA5CB /* String+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD603085D54C8836D37A27423EB43E72 /* String+Sweeter.swift */; };
+		84E3FBAA80D5D2B58166CE7B1B41DB5D /* MultiToggleButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE27ABDA9646C2B6DCC72E3AFE55D03 /* MultiToggleButton-dummy.m */; };
+		8DC5B4DD5599B45CAE15DD583C171FA4 /* MultiToggleButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15EB1A5F185D9F4AC7A015F88C1BFECA /* MultiToggleButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5C2C892FF248DC552582337180AD4B6 /* FocusBoxLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FBFA258F2A498DFCAE5DB5D76FAE27 /* FocusBoxLayer.swift */; };
+		A691A74AB87FAAD55EAFEEF41F6E0D8A /* CameraBackground-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4B6B5497290C396EBCAA74D16FF144 /* CameraBackground-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AED8C0BC395CCB0980CDAE5A30D2E4D9 /* TimeInterval+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B57E76E60AAE13BCF921C61E2F519DD /* TimeInterval+Sweeter.swift */; };
+		B13570421994A497046C23B442924484 /* UIView+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01115C1E62C07628A9A185ECC0FB4C60 /* UIView+Sweeter.swift */; };
+		B716E0EF99D0D73D0C5622E4ECAAA443 /* UITextView+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B86C6D818C97CFF08286D6A2EB2E0E /* UITextView+Sweeter.swift */; };
+		BD812D90D66AC9FA544A5E652F7ED74F /* UIApplication+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601C5A8AF036AE1BEBE9FA7C73AC4247 /* UIApplication+Sweeter.swift */; };
+		CDD9E545148F46A23C5E36528B05058D /* NSObject+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CB55FE34124B245CE981EAC03D7DE9 /* NSObject+Sweeter.swift */; };
+		D42D4BB029A843BA6B2C12D6CB68EAD7 /* NSManagedObjectContext+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6148B66F1B5D07F9B77E92D5A9BD57A3 /* NSManagedObjectContext+Sweeter.swift */; };
+		D67568D205324DC844947344EADA887D /* AVFoundation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E1FC18FD7AE3E3C3EC3399742AC69 /* AVFoundation+Extensions.swift */; };
+		E16954803B5FE0402C40FD7EE839FB49 /* record.png in Resources */ = {isa = PBXBuildFile; fileRef = A4ADDD3DEF0FDAF214A26BFE34E862BE /* record.png */; };
+		E8A0762668722BC4D30E3F94FB97D1DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E8ADD4A1328E2B098C9F3356A713AC9F /* CameraBackground-CameraBackground in Resources */ = {isa = PBXBuildFile; fileRef = CA3982D1AE56261567A04BE0BC6B9594 /* CameraBackground-CameraBackground */; };
+		EDFD9FF8E6BB8C744C45D20EC8FA2505 /* Pods-QR Scanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFFFA719AED5523626B796E4ABB85E2 /* Pods-QR Scanner-dummy.m */; };
+		EFC87E1A4A0F07F5320D7825DB3F8D08 /* UIViewController+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2205EC53DD5B5254BA4F50E28950CA /* UIViewController+Sweeter.swift */; };
+		FBF7CF8BF9221BB8471374FE94F90F29 /* Codable+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281B38CDA797CFD1A10C59DD20C8B912 /* Codable+Sweeter.swift */; };
+		FC27A36770B0FFE365EFEE0A0BB8CA77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51E15BA04024D8BD046DF3F765D37BF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B9A01120FBD31415A425FCB540F1A45;
+			remoteInfo = MultiToggleButton;
+		};
+		5EC486EAB147A7FAC3B010D7B5F0DD07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6819F499159C87193DDD7D51504DD6C1;
+			remoteInfo = SweeterSwift;
+		};
+		60C2637EA69ACB776A337F0B0F3706C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A4C3433116959A0069A46ABBECF5736;
+			remoteInfo = CameraBackground;
+		};
+		821B56FAC3FFDF0626C73FCE9F8E026A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6819F499159C87193DDD7D51504DD6C1;
+			remoteInfo = SweeterSwift;
+		};
+		DAEA6997E815A486BB17ADAFDD699892 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A103C850FB082D23119ACF6A8EEEA9F;
+			remoteInfo = "CameraBackground-CameraBackground";
+		};
+		DB9D4B5F5C30253D89028FEDC5A007A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B9A01120FBD31415A425FCB540F1A45;
+			remoteInfo = MultiToggleButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01115C1E62C07628A9A185ECC0FB4C60 /* UIView+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Sweeter.swift"; path = "Source/UIView+Sweeter.swift"; sourceTree = "<group>"; };
+		0B2205EC53DD5B5254BA4F50E28950CA /* UIViewController+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Sweeter.swift"; path = "Source/UIViewController+Sweeter.swift"; sourceTree = "<group>"; };
+		0B57E76E60AAE13BCF921C61E2F519DD /* TimeInterval+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TimeInterval+Sweeter.swift"; path = "Source/TimeInterval+Sweeter.swift"; sourceTree = "<group>"; };
+		15EB1A5F185D9F4AC7A015F88C1BFECA /* MultiToggleButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MultiToggleButton-umbrella.h"; sourceTree = "<group>"; };
+		1CEE4AFE5D03E1F870276BAC87E5F074 /* MultiToggleButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MultiToggleButton.release.xcconfig; sourceTree = "<group>"; };
+		281B38CDA797CFD1A10C59DD20C8B912 /* Codable+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Codable+Sweeter.swift"; path = "Source/Codable+Sweeter.swift"; sourceTree = "<group>"; };
+		28A10FB8A3C6965EE590EBDEBF4FED77 /* CameraBackground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CameraBackground.debug.xcconfig; sourceTree = "<group>"; };
+		29A332C7BBB30E236D3D46888AABF6E4 /* MultiToggleButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MultiToggleButton.debug.xcconfig; sourceTree = "<group>"; };
+		2A1A8BE20DAE7A7089D4E2B9B8B801F5 /* NSAttributedString+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSAttributedString+Sweeter.swift"; path = "Source/NSAttributedString+Sweeter.swift"; sourceTree = "<group>"; };
+		379E0977A59A1A549A550B2E1951165F /* camera-timer@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "camera-timer@2x.png"; path = "Sources/camera-timer@2x.png"; sourceTree = "<group>"; };
+		3AFFFA719AED5523626B796E4ABB85E2 /* Pods-QR Scanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QR Scanner-dummy.m"; sourceTree = "<group>"; };
+		3F6ECD51EBCBC2DE23439F9735566D80 /* Pods-QR Scanner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QR Scanner-frameworks.sh"; sourceTree = "<group>"; };
+		41FBFA258F2A498DFCAE5DB5D76FAE27 /* FocusBoxLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FocusBoxLayer.swift; path = Sources/FocusBoxLayer.swift; sourceTree = "<group>"; };
+		4B6A52A6E9F03B066835E5A5D27CACDF /* camera-flash@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "camera-flash@2x.png"; path = "Sources/camera-flash@2x.png"; sourceTree = "<group>"; };
+		562E1FC18FD7AE3E3C3EC3399742AC69 /* AVFoundation+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AVFoundation+Extensions.swift"; path = "Sources/AVFoundation+Extensions.swift"; sourceTree = "<group>"; };
+		58CB55FE34124B245CE981EAC03D7DE9 /* NSObject+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Sweeter.swift"; path = "Source/NSObject+Sweeter.swift"; sourceTree = "<group>"; };
+		5BE3765FF8AEE13C1C032CE56026427D /* CameraBackground-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CameraBackground-prefix.pch"; sourceTree = "<group>"; };
+		5CC7F46C05FEAED02679D998567C1DF4 /* Pods-QR Scanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QR Scanner-Info.plist"; sourceTree = "<group>"; };
+		5DC2F6BF401541226ED0C0F39B7C045E /* CameraBackground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CameraBackground.release.xcconfig; sourceTree = "<group>"; };
+		601C5A8AF036AE1BEBE9FA7C73AC4247 /* UIApplication+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+Sweeter.swift"; path = "Source/UIApplication+Sweeter.swift"; sourceTree = "<group>"; };
+		6148B66F1B5D07F9B77E92D5A9BD57A3 /* NSManagedObjectContext+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSManagedObjectContext+Sweeter.swift"; path = "Source/NSManagedObjectContext+Sweeter.swift"; sourceTree = "<group>"; };
+		63E250ED9662CE8CE0480B1B818283B3 /* SweeterSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SweeterSwift.modulemap; sourceTree = "<group>"; };
+		6460E869E9081588FA5131F2ECF2952A /* CameraBackground-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CameraBackground-dummy.m"; sourceTree = "<group>"; };
+		69041D1588A5C1FF6AE1F9481B9303FE /* SweeterSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SweeterSwift-umbrella.h"; sourceTree = "<group>"; };
+		693696AA8B2F9266B365B199A7C2ACFE /* MultiToggleButton */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MultiToggleButton; path = MultiToggleButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		769DF71C76EC1DE0D45F29553D03D96E /* Pods-QR Scanner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QR Scanner-acknowledgements.plist"; sourceTree = "<group>"; };
+		7805DC5F43A379810652EBFA43F0106D /* CameraBackground.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CameraBackground.modulemap; sourceTree = "<group>"; };
+		7947207DB584033D67AF7FBA354828C9 /* Pods-QR Scanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QR Scanner.modulemap"; sourceTree = "<group>"; };
+		7A0CC3377B6AC8268FDEE601D3117FE2 /* Pods-QR Scanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QR Scanner-umbrella.h"; sourceTree = "<group>"; };
+		7A360A34DF792DCFF9DC4E6F4DA7E3F7 /* Bundle+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Sweeter.swift"; path = "Source/Bundle+Sweeter.swift"; sourceTree = "<group>"; };
+		7CB3D02777A9E5497CB195548A9800AC /* SweeterSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SweeterSwift.release.xcconfig; sourceTree = "<group>"; };
+		82616D93BEF5106704E48DD5E7B247A4 /* SweeterSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SweeterSwift-prefix.pch"; sourceTree = "<group>"; };
+		86203D80587514E259031363757DF74E /* DateFormatter+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateFormatter+Sweeter.swift"; path = "Source/DateFormatter+Sweeter.swift"; sourceTree = "<group>"; };
+		898C926F60C48FAB779373F1FD4A7432 /* camera-switch@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "camera-switch@2x.png"; path = "Sources/camera-switch@2x.png"; sourceTree = "<group>"; };
+		89AC7E21EBCC11C32E729005999F7853 /* UIView+CameraBackground.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+CameraBackground.swift"; path = "Sources/UIView+CameraBackground.swift"; sourceTree = "<group>"; };
+		935E673074EB57223E552331EEADC47F /* MultiToggleButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MultiToggleButton.modulemap; sourceTree = "<group>"; };
+		963CDFF7ABCB96DB639E00CF04F89F00 /* CoundownLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoundownLabel.swift; path = Sources/CoundownLabel.swift; sourceTree = "<group>"; };
+		97A8763D77E7D56F390CF5774498E40E /* CameraBackground */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CameraBackground; path = CameraBackground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BCEE945384E9E3A8625673105C6B880 /* Pods-QR Scanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QR Scanner.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A25AEAF985D9F1F0B0E70E5C70142748 /* MultiToggleButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MultiToggleButton-prefix.pch"; sourceTree = "<group>"; };
+		A4ADDD3DEF0FDAF214A26BFE34E862BE /* record.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = record.png; path = Sources/record.png; sourceTree = "<group>"; };
+		A99EFFD1B3C0680E26F39036ED9F4868 /* SweeterSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SweeterSwift-Info.plist"; sourceTree = "<group>"; };
+		AA4B6B5497290C396EBCAA74D16FF144 /* CameraBackground-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CameraBackground-umbrella.h"; sourceTree = "<group>"; };
+		B2DF87C65538EEB7FEBBE8840CE74DA9 /* Pods-QR Scanner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QR Scanner-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B33A9A73F53F1EA6274195DE1CF5E0AA /* ResourceBundle-CameraBackground-CameraBackground-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CameraBackground-CameraBackground-Info.plist"; sourceTree = "<group>"; };
+		B76CD9F952582A6A4387D799501B3950 /* SweeterSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SweeterSwift; path = SweeterSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B89663CC407CC4B2E7970849CA92D351 /* UIKit+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIKit+Extensions.swift"; path = "Sources/UIKit+Extensions.swift"; sourceTree = "<group>"; };
+		BF64E38A3CF932BCB92744F75598DA07 /* UIStackView+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStackView+Sweeter.swift"; path = "Source/UIStackView+Sweeter.swift"; sourceTree = "<group>"; };
+		BFB0A08733DB9120D7370D781DD952D6 /* MultiToggleButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MultiToggleButton-Info.plist"; sourceTree = "<group>"; };
+		C659E1E21350BDC9B42B59A3885FA245 /* SweeterSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SweeterSwift-dummy.m"; sourceTree = "<group>"; };
+		CA3982D1AE56261567A04BE0BC6B9594 /* CameraBackground-CameraBackground */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "CameraBackground-CameraBackground"; path = CameraBackground.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD603085D54C8836D37A27423EB43E72 /* String+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Sweeter.swift"; path = "Source/String+Sweeter.swift"; sourceTree = "<group>"; };
+		CDE27ABDA9646C2B6DCC72E3AFE55D03 /* MultiToggleButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MultiToggleButton-dummy.m"; sourceTree = "<group>"; };
+		E438183882E5B18E3EFEA9CE3DE8D63A /* MultiToggleButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultiToggleButton.swift; path = Sources/MultiToggleButton.swift; sourceTree = "<group>"; };
+		E48B65A33979AC09022FCC0B21B017BC /* CameraBackground-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CameraBackground-Info.plist"; sourceTree = "<group>"; };
+		EA58B5A9C7C006581D3549ADE88BC66D /* Swift+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Swift+Sweeter.swift"; path = "Source/Swift+Sweeter.swift"; sourceTree = "<group>"; };
+		F1EA8E34CB2A29379F82217E3EAB4524 /* Pods-QR Scanner */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-QR Scanner"; path = Pods_QR_Scanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2B86C6D818C97CFF08286D6A2EB2E0E /* UITextView+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextView+Sweeter.swift"; path = "Source/UITextView+Sweeter.swift"; sourceTree = "<group>"; };
+		F77E23938919F42065BB948853BCCEBE /* SweeterSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SweeterSwift.debug.xcconfig; sourceTree = "<group>"; };
+		FD11503E9CE190783B4D06B3BFDD4A8F /* Pods-QR Scanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QR Scanner.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CEBC7D1B43F3298A1DDF6CA7A5BCA7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC27A36770B0FFE365EFEE0A0BB8CA77 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		233F94615F4147236DA9FD1676052844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D5207B75FAB72BE8D019EB4FA6FC857 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983D948A408CB1B53EC19F9E117D08CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F229E18A534CB24095A885DA4EB44AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED5C4954253E8F5260962B6B6A8404AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25707AD18B1E1A3D917DB554F3BF4C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8A0762668722BC4D30E3F94FB97D1DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B36486262FE4D8D99A5E4A3723C47C4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				63E250ED9662CE8CE0480B1B818283B3 /* SweeterSwift.modulemap */,
+				C659E1E21350BDC9B42B59A3885FA245 /* SweeterSwift-dummy.m */,
+				A99EFFD1B3C0680E26F39036ED9F4868 /* SweeterSwift-Info.plist */,
+				82616D93BEF5106704E48DD5E7B247A4 /* SweeterSwift-prefix.pch */,
+				69041D1588A5C1FF6AE1F9481B9303FE /* SweeterSwift-umbrella.h */,
+				F77E23938919F42065BB948853BCCEBE /* SweeterSwift.debug.xcconfig */,
+				7CB3D02777A9E5497CB195548A9800AC /* SweeterSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SweeterSwift";
+			sourceTree = "<group>";
+		};
+		1312DACC0BD0971A6649CB12E4B26EE5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A4B199CABE112BF072F54DF8C3DD022B /* Resources */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1C54A3D8913824659EAC1E38FD953D0F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7805DC5F43A379810652EBFA43F0106D /* CameraBackground.modulemap */,
+				6460E869E9081588FA5131F2ECF2952A /* CameraBackground-dummy.m */,
+				E48B65A33979AC09022FCC0B21B017BC /* CameraBackground-Info.plist */,
+				5BE3765FF8AEE13C1C032CE56026427D /* CameraBackground-prefix.pch */,
+				AA4B6B5497290C396EBCAA74D16FF144 /* CameraBackground-umbrella.h */,
+				28A10FB8A3C6965EE590EBDEBF4FED77 /* CameraBackground.debug.xcconfig */,
+				5DC2F6BF401541226ED0C0F39B7C045E /* CameraBackground.release.xcconfig */,
+				B33A9A73F53F1EA6274195DE1CF5E0AA /* ResourceBundle-CameraBackground-CameraBackground-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CameraBackground";
+			sourceTree = "<group>";
+		};
+		1FB9DF4D4AC102BA896F8AD93F9DDD1B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				935E673074EB57223E552331EEADC47F /* MultiToggleButton.modulemap */,
+				CDE27ABDA9646C2B6DCC72E3AFE55D03 /* MultiToggleButton-dummy.m */,
+				BFB0A08733DB9120D7370D781DD952D6 /* MultiToggleButton-Info.plist */,
+				A25AEAF985D9F1F0B0E70E5C70142748 /* MultiToggleButton-prefix.pch */,
+				15EB1A5F185D9F4AC7A015F88C1BFECA /* MultiToggleButton-umbrella.h */,
+				29A332C7BBB30E236D3D46888AABF6E4 /* MultiToggleButton.debug.xcconfig */,
+				1CEE4AFE5D03E1F870276BAC87E5F074 /* MultiToggleButton.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MultiToggleButton";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		693F18DE2ACF2D3BEFCA1F6207DEB4FA /* Pods-QR Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				7947207DB584033D67AF7FBA354828C9 /* Pods-QR Scanner.modulemap */,
+				B2DF87C65538EEB7FEBBE8840CE74DA9 /* Pods-QR Scanner-acknowledgements.markdown */,
+				769DF71C76EC1DE0D45F29553D03D96E /* Pods-QR Scanner-acknowledgements.plist */,
+				3AFFFA719AED5523626B796E4ABB85E2 /* Pods-QR Scanner-dummy.m */,
+				3F6ECD51EBCBC2DE23439F9735566D80 /* Pods-QR Scanner-frameworks.sh */,
+				5CC7F46C05FEAED02679D998567C1DF4 /* Pods-QR Scanner-Info.plist */,
+				7A0CC3377B6AC8268FDEE601D3117FE2 /* Pods-QR Scanner-umbrella.h */,
+				FD11503E9CE190783B4D06B3BFDD4A8F /* Pods-QR Scanner.debug.xcconfig */,
+				9BCEE945384E9E3A8625673105C6B880 /* Pods-QR Scanner.release.xcconfig */,
+			);
+			name = "Pods-QR Scanner";
+			path = "Target Support Files/Pods-QR Scanner";
+			sourceTree = "<group>";
+		};
+		7E45CB424989FA36E8032EBE4B0FB611 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B45938336F6060EABB034488418CCC6 /* CameraBackground */,
+				C3CF4635B9C946184E2E45A662BDDFCE /* MultiToggleButton */,
+				9109FF8ED2C0C71D5D89B203634CB147 /* SweeterSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9109FF8ED2C0C71D5D89B203634CB147 /* SweeterSwift */ = {
+			isa = PBXGroup;
+			children = (
+				7A360A34DF792DCFF9DC4E6F4DA7E3F7 /* Bundle+Sweeter.swift */,
+				281B38CDA797CFD1A10C59DD20C8B912 /* Codable+Sweeter.swift */,
+				86203D80587514E259031363757DF74E /* DateFormatter+Sweeter.swift */,
+				2A1A8BE20DAE7A7089D4E2B9B8B801F5 /* NSAttributedString+Sweeter.swift */,
+				6148B66F1B5D07F9B77E92D5A9BD57A3 /* NSManagedObjectContext+Sweeter.swift */,
+				58CB55FE34124B245CE981EAC03D7DE9 /* NSObject+Sweeter.swift */,
+				CD603085D54C8836D37A27423EB43E72 /* String+Sweeter.swift */,
+				EA58B5A9C7C006581D3549ADE88BC66D /* Swift+Sweeter.swift */,
+				0B57E76E60AAE13BCF921C61E2F519DD /* TimeInterval+Sweeter.swift */,
+				601C5A8AF036AE1BEBE9FA7C73AC4247 /* UIApplication+Sweeter.swift */,
+				BF64E38A3CF932BCB92744F75598DA07 /* UIStackView+Sweeter.swift */,
+				F2B86C6D818C97CFF08286D6A2EB2E0E /* UITextView+Sweeter.swift */,
+				01115C1E62C07628A9A185ECC0FB4C60 /* UIView+Sweeter.swift */,
+				0B2205EC53DD5B5254BA4F50E28950CA /* UIViewController+Sweeter.swift */,
+				0B36486262FE4D8D99A5E4A3723C47C4 /* Support Files */,
+			);
+			name = SweeterSwift;
+			path = SweeterSwift;
+			sourceTree = "<group>";
+		};
+		9B45938336F6060EABB034488418CCC6 /* CameraBackground */ = {
+			isa = PBXGroup;
+			children = (
+				562E1FC18FD7AE3E3C3EC3399742AC69 /* AVFoundation+Extensions.swift */,
+				963CDFF7ABCB96DB639E00CF04F89F00 /* CoundownLabel.swift */,
+				41FBFA258F2A498DFCAE5DB5D76FAE27 /* FocusBoxLayer.swift */,
+				B89663CC407CC4B2E7970849CA92D351 /* UIKit+Extensions.swift */,
+				89AC7E21EBCC11C32E729005999F7853 /* UIView+CameraBackground.swift */,
+				1312DACC0BD0971A6649CB12E4B26EE5 /* Resources */,
+				1C54A3D8913824659EAC1E38FD953D0F /* Support Files */,
+			);
+			name = CameraBackground;
+			path = CameraBackground;
+			sourceTree = "<group>";
+		};
+		A4B199CABE112BF072F54DF8C3DD022B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4B6A52A6E9F03B066835E5A5D27CACDF /* camera-flash@2x.png */,
+				898C926F60C48FAB779373F1FD4A7432 /* camera-switch@2x.png */,
+				379E0977A59A1A549A550B2E1951165F /* camera-timer@2x.png */,
+				A4ADDD3DEF0FDAF214A26BFE34E862BE /* record.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A9756143C0F9287BCBC1FF258C4C1F48 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				693F18DE2ACF2D3BEFCA1F6207DEB4FA /* Pods-QR Scanner */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A9ECC2353E6ECB46CCF43FC33DF8E6F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97A8763D77E7D56F390CF5774498E40E /* CameraBackground */,
+				CA3982D1AE56261567A04BE0BC6B9594 /* CameraBackground-CameraBackground */,
+				693696AA8B2F9266B365B199A7C2ACFE /* MultiToggleButton */,
+				F1EA8E34CB2A29379F82217E3EAB4524 /* Pods-QR Scanner */,
+				B76CD9F952582A6A4387D799501B3950 /* SweeterSwift */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3CF4635B9C946184E2E45A662BDDFCE /* MultiToggleButton */ = {
+			isa = PBXGroup;
+			children = (
+				E438183882E5B18E3EFEA9CE3DE8D63A /* MultiToggleButton.swift */,
+				1FB9DF4D4AC102BA896F8AD93F9DDD1B /* Support Files */,
+			);
+			name = MultiToggleButton;
+			path = MultiToggleButton;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7E45CB424989FA36E8032EBE4B0FB611 /* Pods */,
+				A9ECC2353E6ECB46CCF43FC33DF8E6F9 /* Products */,
+				A9756143C0F9287BCBC1FF258C4C1F48 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		143F9C8C5F30129883682EEEA37824E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC5B4DD5599B45CAE15DD583C171FA4 /* MultiToggleButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DFBF7B2067EDC190C077281A59A34E8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A691A74AB87FAAD55EAFEEF41F6E0D8A /* CameraBackground-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58DCE644B5323F4AAD90D3D68D0140EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C786E4DB252BF4AF3D04E22A78BCF04 /* Pods-QR Scanner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3D4A2E6629334012E6E0FCD7EB4207E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05DFF8F95F1B9A194B8B00AF50A6FCD3 /* SweeterSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2A103C850FB082D23119ACF6A8EEEA9F /* CameraBackground-CameraBackground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC3E49523F28604082FAAD04990CC5AD /* Build configuration list for PBXNativeTarget "CameraBackground-CameraBackground" */;
+			buildPhases = (
+				66DB0255F8CC3D66800415B946FE78A8 /* Sources */,
+				ED5C4954253E8F5260962B6B6A8404AD /* Frameworks */,
+				BC59DC514478CA3C37DED2A5FC13A3C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CameraBackground-CameraBackground";
+			productName = CameraBackground;
+			productReference = CA3982D1AE56261567A04BE0BC6B9594 /* CameraBackground-CameraBackground */;
+			productType = "com.apple.product-type.bundle";
+		};
+		3B9A01120FBD31415A425FCB540F1A45 /* MultiToggleButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D39352AB00DE6A72BF256FF070CC662 /* Build configuration list for PBXNativeTarget "MultiToggleButton" */;
+			buildPhases = (
+				143F9C8C5F30129883682EEEA37824E1 /* Headers */,
+				4847E877DAD52946F4B23B550DB3F08E /* Sources */,
+				233F94615F4147236DA9FD1676052844 /* Frameworks */,
+				66A9A96455122514618593E37695B994 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiToggleButton;
+			productName = MultiToggleButton;
+			productReference = 693696AA8B2F9266B365B199A7C2ACFE /* MultiToggleButton */;
+			productType = "com.apple.product-type.framework";
+		};
+		6819F499159C87193DDD7D51504DD6C1 /* SweeterSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48C86BFE15487A1AA4851AB5720CFDC0 /* Build configuration list for PBXNativeTarget "SweeterSwift" */;
+			buildPhases = (
+				F3D4A2E6629334012E6E0FCD7EB4207E /* Headers */,
+				D0CA1DDD29FF6642E6D5710FA240B8A7 /* Sources */,
+				0CEBC7D1B43F3298A1DDF6CA7A5BCA7B /* Frameworks */,
+				DD747002777C292287503571BCF70C36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SweeterSwift;
+			productName = SweeterSwift;
+			productReference = B76CD9F952582A6A4387D799501B3950 /* SweeterSwift */;
+			productType = "com.apple.product-type.framework";
+		};
+		6A4C3433116959A0069A46ABBECF5736 /* CameraBackground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE964B93FA9D5ACCFA3769B1600591D5 /* Build configuration list for PBXNativeTarget "CameraBackground" */;
+			buildPhases = (
+				2DFBF7B2067EDC190C077281A59A34E8 /* Headers */,
+				6DD8A710DBDEB05AF1891774CC6886AF /* Sources */,
+				F25707AD18B1E1A3D917DB554F3BF4C8 /* Frameworks */,
+				10B396D57F78360FCBF5967EEF53A3A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC9F8E34376A31BDDC7B891244FA416C /* PBXTargetDependency */,
+				96FFB1947E8A5291D6E2074B93E37DEA /* PBXTargetDependency */,
+				934C5DF73FC1F243755A3722D4DBC17C /* PBXTargetDependency */,
+			);
+			name = CameraBackground;
+			productName = CameraBackground;
+			productReference = 97A8763D77E7D56F390CF5774498E40E /* CameraBackground */;
+			productType = "com.apple.product-type.framework";
+		};
+		BE15F308BB07F0B16EB142FECED9BCFB /* Pods-QR Scanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F067E6456384536DF6AD7193BEBF3B7E /* Build configuration list for PBXNativeTarget "Pods-QR Scanner" */;
+			buildPhases = (
+				58DCE644B5323F4AAD90D3D68D0140EB /* Headers */,
+				F859CB410575A098249462710115739A /* Sources */,
+				983D948A408CB1B53EC19F9E117D08CC /* Frameworks */,
+				D6D4A46C9E2D2ABDA987CFA5DDA217A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C94350DAF2919A6A33A94D25FC6CE2C3 /* PBXTargetDependency */,
+				83FAF9B6BDE255C47F576864FB990454 /* PBXTargetDependency */,
+				E540355BE1B566B69C551161CCD0D974 /* PBXTargetDependency */,
+			);
+			name = "Pods-QR Scanner";
+			productName = Pods_QR_Scanner;
+			productReference = F1EA8E34CB2A29379F82217E3EAB4524 /* Pods-QR Scanner */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A9ECC2353E6ECB46CCF43FC33DF8E6F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A4C3433116959A0069A46ABBECF5736 /* CameraBackground */,
+				2A103C850FB082D23119ACF6A8EEEA9F /* CameraBackground-CameraBackground */,
+				3B9A01120FBD31415A425FCB540F1A45 /* MultiToggleButton */,
+				BE15F308BB07F0B16EB142FECED9BCFB /* Pods-QR Scanner */,
+				6819F499159C87193DDD7D51504DD6C1 /* SweeterSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10B396D57F78360FCBF5967EEF53A3A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8ADD4A1328E2B098C9F3356A713AC9F /* CameraBackground-CameraBackground in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66A9A96455122514618593E37695B994 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC59DC514478CA3C37DED2A5FC13A3C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				320B1AA6EF7AEC3A6F03A23830A923A8 /* camera-flash@2x.png in Resources */,
+				72B72F6E3907898F60350B07063A9B46 /* camera-switch@2x.png in Resources */,
+				3C322BC5BEE294013489188EB7D91258 /* camera-timer@2x.png in Resources */,
+				E16954803B5FE0402C40FD7EE839FB49 /* record.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D4A46C9E2D2ABDA987CFA5DDA217A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD747002777C292287503571BCF70C36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4847E877DAD52946F4B23B550DB3F08E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6913ECDCFE93D1470B9E23DABFB803 /* MultiToggleButton.swift in Sources */,
+				84E3FBAA80D5D2B58166CE7B1B41DB5D /* MultiToggleButton-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66DB0255F8CC3D66800415B946FE78A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DD8A710DBDEB05AF1891774CC6886AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67568D205324DC844947344EADA887D /* AVFoundation+Extensions.swift in Sources */,
+				036E64398511EAB140B2D4CBD2CC8C2E /* CameraBackground-dummy.m in Sources */,
+				5D70DBEE280962F2710F0B2B82B4F436 /* CoundownLabel.swift in Sources */,
+				A5C2C892FF248DC552582337180AD4B6 /* FocusBoxLayer.swift in Sources */,
+				4A5EA5C235ABF46169698A0C8E7F62DB /* UIKit+Extensions.swift in Sources */,
+				66F28021D6AED14886B731FFC471C764 /* UIView+CameraBackground.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0CA1DDD29FF6642E6D5710FA240B8A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECA3EE73F1A66206D186A8FC2EAFB5C /* Bundle+Sweeter.swift in Sources */,
+				FBF7CF8BF9221BB8471374FE94F90F29 /* Codable+Sweeter.swift in Sources */,
+				082755EC6228AF4DB12D56843D58BDB2 /* DateFormatter+Sweeter.swift in Sources */,
+				11D4539FEEFAE9AB471475196BE7FADD /* NSAttributedString+Sweeter.swift in Sources */,
+				D42D4BB029A843BA6B2C12D6CB68EAD7 /* NSManagedObjectContext+Sweeter.swift in Sources */,
+				CDD9E545148F46A23C5E36528B05058D /* NSObject+Sweeter.swift in Sources */,
+				77FE42206D6A85D2BB2F8C53A9FCA5CB /* String+Sweeter.swift in Sources */,
+				30DDC205B5832CA0535A0B6C9CC93469 /* SweeterSwift-dummy.m in Sources */,
+				679D84111D5C91D8642540A0F463CEED /* Swift+Sweeter.swift in Sources */,
+				AED8C0BC395CCB0980CDAE5A30D2E4D9 /* TimeInterval+Sweeter.swift in Sources */,
+				BD812D90D66AC9FA544A5E652F7ED74F /* UIApplication+Sweeter.swift in Sources */,
+				23057B77A1998D4191BBF748E1CBE32F /* UIStackView+Sweeter.swift in Sources */,
+				B716E0EF99D0D73D0C5622E4ECAAA443 /* UITextView+Sweeter.swift in Sources */,
+				B13570421994A497046C23B442924484 /* UIView+Sweeter.swift in Sources */,
+				EFC87E1A4A0F07F5320D7825DB3F8D08 /* UIViewController+Sweeter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F859CB410575A098249462710115739A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDFD9FF8E6BB8C744C45D20EC8FA2505 /* Pods-QR Scanner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83FAF9B6BDE255C47F576864FB990454 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MultiToggleButton;
+			target = 3B9A01120FBD31415A425FCB540F1A45 /* MultiToggleButton */;
+			targetProxy = 51E15BA04024D8BD046DF3F765D37BF1 /* PBXContainerItemProxy */;
+		};
+		934C5DF73FC1F243755A3722D4DBC17C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SweeterSwift;
+			target = 6819F499159C87193DDD7D51504DD6C1 /* SweeterSwift */;
+			targetProxy = 5EC486EAB147A7FAC3B010D7B5F0DD07 /* PBXContainerItemProxy */;
+		};
+		96FFB1947E8A5291D6E2074B93E37DEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MultiToggleButton;
+			target = 3B9A01120FBD31415A425FCB540F1A45 /* MultiToggleButton */;
+			targetProxy = DB9D4B5F5C30253D89028FEDC5A007A4 /* PBXContainerItemProxy */;
+		};
+		BC9F8E34376A31BDDC7B891244FA416C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CameraBackground-CameraBackground";
+			target = 2A103C850FB082D23119ACF6A8EEEA9F /* CameraBackground-CameraBackground */;
+			targetProxy = DAEA6997E815A486BB17ADAFDD699892 /* PBXContainerItemProxy */;
+		};
+		C94350DAF2919A6A33A94D25FC6CE2C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CameraBackground;
+			target = 6A4C3433116959A0069A46ABBECF5736 /* CameraBackground */;
+			targetProxy = 60C2637EA69ACB776A337F0B0F3706C1 /* PBXContainerItemProxy */;
+		};
+		E540355BE1B566B69C551161CCD0D974 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SweeterSwift;
+			target = 6819F499159C87193DDD7D51504DD6C1 /* SweeterSwift */;
+			targetProxy = 821B56FAC3FFDF0626C73FCE9F8E026A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		047591CE25B5D3105D9DC6DDFA91279B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29A332C7BBB30E236D3D46888AABF6E4 /* MultiToggleButton.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MultiToggleButton/MultiToggleButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MultiToggleButton/MultiToggleButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MultiToggleButton/MultiToggleButton.modulemap";
+				PRODUCT_MODULE_NAME = MultiToggleButton;
+				PRODUCT_NAME = MultiToggleButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		05109D373FA974CAD778E59DDC932AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CEE4AFE5D03E1F870276BAC87E5F074 /* MultiToggleButton.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MultiToggleButton/MultiToggleButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MultiToggleButton/MultiToggleButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MultiToggleButton/MultiToggleButton.modulemap";
+				PRODUCT_MODULE_NAME = MultiToggleButton;
+				PRODUCT_NAME = MultiToggleButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2391CF60889CCEF55037A36D1B2953A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD11503E9CE190783B4D06B3BFDD4A8F /* Pods-QR Scanner.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QR Scanner/Pods-QR Scanner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QR Scanner/Pods-QR Scanner.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		32FFA25026C5EC38507B73F453AF4F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DC2F6BF401541226ED0C0F39B7C045E /* CameraBackground.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CameraBackground";
+				IBSC_MODULE = CameraBackground;
+				INFOPLIST_FILE = "Target Support Files/CameraBackground/ResourceBundle-CameraBackground-CameraBackground-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = CameraBackground;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		717EA4057224A285B87073DCEA0F6913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28A10FB8A3C6965EE590EBDEBF4FED77 /* CameraBackground.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CameraBackground";
+				IBSC_MODULE = CameraBackground;
+				INFOPLIST_FILE = "Target Support Files/CameraBackground/ResourceBundle-CameraBackground-CameraBackground-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = CameraBackground;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A8C0B6F531459E08F1ED2BD0744CC416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28A10FB8A3C6965EE590EBDEBF4FED77 /* CameraBackground.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CameraBackground/CameraBackground-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CameraBackground/CameraBackground-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CameraBackground/CameraBackground.modulemap";
+				PRODUCT_MODULE_NAME = CameraBackground;
+				PRODUCT_NAME = CameraBackground;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC36F162916533DE48DDE1B3A927C99A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CB3D02777A9E5497CB195548A9800AC /* SweeterSwift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SweeterSwift/SweeterSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SweeterSwift/SweeterSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SweeterSwift/SweeterSwift.modulemap";
+				PRODUCT_MODULE_NAME = SweeterSwift;
+				PRODUCT_NAME = SweeterSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE4C03CC09A99872B2ED2021063385B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BCEE945384E9E3A8625673105C6B880 /* Pods-QR Scanner.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QR Scanner/Pods-QR Scanner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QR Scanner/Pods-QR Scanner.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D4E81D05A4FEBF6F39A08BB64FA72AE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F77E23938919F42065BB948853BCCEBE /* SweeterSwift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SweeterSwift/SweeterSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SweeterSwift/SweeterSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SweeterSwift/SweeterSwift.modulemap";
+				PRODUCT_MODULE_NAME = SweeterSwift;
+				PRODUCT_NAME = SweeterSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D62E35DF09D095FB1F234CB1DCB9D084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DC2F6BF401541226ED0C0F39B7C045E /* CameraBackground.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CameraBackground/CameraBackground-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CameraBackground/CameraBackground-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CameraBackground/CameraBackground.modulemap";
+				PRODUCT_MODULE_NAME = CameraBackground;
+				PRODUCT_NAME = CameraBackground;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48C86BFE15487A1AA4851AB5720CFDC0 /* Build configuration list for PBXNativeTarget "SweeterSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E81D05A4FEBF6F39A08BB64FA72AE0 /* Debug */,
+				BC36F162916533DE48DDE1B3A927C99A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D39352AB00DE6A72BF256FF070CC662 /* Build configuration list for PBXNativeTarget "MultiToggleButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047591CE25B5D3105D9DC6DDFA91279B /* Debug */,
+				05109D373FA974CAD778E59DDC932AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE964B93FA9D5ACCFA3769B1600591D5 /* Build configuration list for PBXNativeTarget "CameraBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8C0B6F531459E08F1ED2BD0744CC416 /* Debug */,
+				D62E35DF09D095FB1F234CB1DCB9D084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F067E6456384536DF6AD7193BEBF3B7E /* Build configuration list for PBXNativeTarget "Pods-QR Scanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2391CF60889CCEF55037A36D1B2953A1 /* Debug */,
+				BE4C03CC09A99872B2ED2021063385B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC3E49523F28604082FAAD04990CC5AD /* Build configuration list for PBXNativeTarget "CameraBackground-CameraBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				717EA4057224A285B87073DCEA0F6913 /* Debug */,
+				32FFA25026C5EC38507B73F453AF4F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 import AVFoundation
+import CameraBackground
 
 /// Delegate callback for the QRScannerView.
 protocol QRScannerViewDelegate: class {
@@ -113,9 +114,9 @@ extension QRScannerView: AVCaptureMetadataOutputObjectsDelegate {
         
         if let metadataObject = metadataObjects.first {
             guard let readableObject = metadataObject as? AVMetadataMachineReadableCodeObject else { return }
-            guard let stringValue = readableObject.stringValue else { return }
+            guard let stringValue = readableObject.stringValue?.utf8 else { return }
             AudioServicesPlaySystemSound(SystemSoundID(kSystemSoundID_Vibrate))
-            found(code: stringValue)
+            //found(code: stringValue)
         }
     }
     
